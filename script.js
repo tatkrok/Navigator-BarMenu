@@ -8,7 +8,7 @@ function handleIndex(element) {
     })
 }
 
-ites.forEach((item, index) =>{
+items.forEach((item, index) =>{
     item.addEventListener ('click' , (a) => {
         handleIndex(a.target)});
     item.classList.contains("is active") && handleIndex(item);
